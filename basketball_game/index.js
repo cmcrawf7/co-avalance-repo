@@ -68,3 +68,7 @@ function add1foulHome() {
     console.log(homeFoulCount)
     awayFouls.textContent = awayFoulCount
 }
+
+function test() {
+    
+}
