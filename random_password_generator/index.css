@@ -1,0 +1,88 @@
+body {
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: #5B507A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    margin: 0;
+}
+#headerupper {
+    color: whitesmoke;
+}
+#headermid {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #9EADC8;
+}
+#headerlower {
+    margin-bottom: 50px;
+    color: #B9E28C;
+}
+#button-div {
+    border-bottom: 1px solid grey;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-top: 10px
+}
+#generate-pw-btn {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+    background-color: #D6D84F;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#passwords {
+    display: inline-flex;
+    justify-content: start;
+    text-align: left;
+}
+.pw-box {
+    width: 225px;
+    height: 40px;
+    background: #5B618A;
+    color: #D6D84F;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none
+
+}
+#pw-one {
+    margin-right: 20px;
+
+}
+#pw-two {
+    margin-left: 20px;
+}
+#num-of-char{
+    display: flex;
+    justify-content: left;
+    color: #B9E28C;
+
+}
+#pw-length {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #5B618A;
+    color: #D6D84F;
+    text-align: center;
+}
+#num-text {
+    margin-right: 10px;
+}
+
+
+
