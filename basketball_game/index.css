@@ -100,7 +100,7 @@ button {
 .game-time-box {
     width: 150px;
     height: 75px;
-    background-color: black;
+    background-color: red;
     color: red;
     display: flex;
     justify-content: center;
