@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #3A435E;
+
+}
+
+img {
+    /*background: #222222;*/
+    width: 100px;
+    padding-top: 50px;
+}
+
+h1 {
+    color: black;
+    text-shadow: 0 0 4px white;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0;
+    gap: 5px
+}
+
+#kudos-box {
+    /*width: 400px;*/
+    /*height: 150px;*/
+    border-radius: 8px;
+    background-color: #313E50;
+    border: none;
+    color: lightgray;
+    /*padding-left: 2px;*/
+    resize: none;
+}
+
+#to-from-boxes {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    /*margin-top: 10px;*/
+    /*width: 400px;*/
+}
+
+.to-from {
+    margin: 0;
+    background-color: #313E50;
+    border: none;
+    border-radius: 8px;
+    /*height: 40px;*/
+    font-size: larger;
+    text-align: center;
+    /*justify-content: space-evenly;*/
+    width: 190px;
+    padding: 8px;
+}
+#from {
+    margin-right: 10px;
+}
+
+button {
+    /*margin-top: 10px;*/
+    background-color: #6C6F7F;
+    border: none;
+    /*color: black;*/
+    border-radius: 8px;
+    /*height: 50px;*/
+    /*font-weight: bold;*/
+    /*font-size: larger;*/
+    padding: 10px
+}
+
+.container-2 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: inherit;
+    /*list-style-position: inside;*/
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column-reverse;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+
+
+}
+
+ul li {
+    /*float: left;*/
+    /*flex-wrap: wrap-reverse;*/
+
+    height: 100px;
+
+    text-align: left;
+    /*max-width: ;*/
+    /*flex-grow: 10;*/
+    border-radius: 8px;
+    /*max-width: 00px;*/
+    background-color: white;
+    margin-bottom: 20px;
+    /*padding: 0;*/
+    /*margin: 10px 0;*/
+    width:min-content;
+    min-width:calc(104% - 1em);
+
+}
+
+textarea {
+    resize: none;
+}
