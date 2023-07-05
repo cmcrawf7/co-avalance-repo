@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/html">
+    <head><link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet"
+             href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Smythe&display=swap"
+              rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <h2>Cody's Diner</h2>
+                <p>The best burgers and pizzas in town.</p>
+        </header>
+        <section>
+            <ul id="menu-items">
+            </ul>
+        </section>
+
+        <footer class="hidden" id="order-review">
+            <h2>Your Order</h2>
+            <div id="checkout-section">
+
+            </div>
+            <div id="total-div">
+                <div id="total-container">
+                    <p class="total-el total-price">Total Price</p>
+                    <p class="total-el price-total" id="checkout-total">$14</p>
+                </div>
+                <button id="checkout-btn">Complete order</button>
+            </div>
+        </footer>
+        <div class="modal hidden" id="modal">
+            <h2>Enter Card Details</h2>
+				<form id="cc-form">
+                    <input type="text"
+                           name="fullName"
+                           placeholder="Enter your name"
+                           required>
+                    <input type="text"
+                           name="cardNumber"
+                           placeholder="Enter card number"
+                           required>
+                    <input type="text"
+                           name="cvv"
+                           placeholder="Enter CVV"
+                           required>
+                    <button type="submit">Pay</button>
+                </form>
+		</div>
+        <div class="thank-you">
+            <h2 id="thank-you"></h2>
+        </div>
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
